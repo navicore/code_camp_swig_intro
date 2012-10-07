@@ -1,0 +1,25 @@
+./ch01/helloworld.c
+./ch01/helloworld.h
+./ch01/perl/BUILD_perl.sh
+./ch01/perl/testme.pl
+./ch01/python/BUILD_python.sh
+./ch01/python/testme.py
+./ch01/ruby/BUILD_ruby.sh
+./ch01/ruby/testme.rb
+
+./ch02/helloworld.h
+./ch02/helloworld.i
+./ch02/perl/BUILD_perl.sh
+./ch02/perl/testme.pl
+./ch02/python/BUILD_python.sh
+./ch02/python/testme.py
+./ch02/ruby/BUILD_ruby.sh
+./ch02/ruby/testme.rb
+
+I, Ed Sweeney, the copyright holder of the files listed above, hereby 
+release it into the public domain. This applies worldwide.
+
+In case this is not legally possible, I grant any entity the right 
+to use this work for any purpose, without any conditions, unless 
+such conditions are required by law."
+

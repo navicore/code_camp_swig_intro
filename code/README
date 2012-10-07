@@ -1,0 +1,27 @@
+Developed and tested on linux with gcc and gmake.
+
+The makefiles need to know where your perl, python, 
+and/or ruby installations are so rename the 
+CONFIG_sample file to CONFIG and edit the lines 
+marked "EDIT THIS LINE"
+
+The *.bundle files are sym links to *.so files, 
+these are only used by some runtimes on OSX
+
+The code/example_01 example illustrates the simplest 
+swig usage, generating a program from just a header 
+file.
+
+The code/example_02 example illustrates this tutorial's 
+recommended approach, using a *.i file and the %extends 
+keyword.
+
+The code/example_03 is the same as example_2 but with
+exeptions.  THIS IS THE EXAMPLE I WISH I HAD WHEN I 
+STARTED WITH SWIG.
+
+The code/example_04 example is a simple sqlite api. 
+THIS EXAMPLE IS INCOMPLETE, but it shows how to 
+instantiate a sqlite db.  I will post a more useful 
+version as example_04 soon...
+

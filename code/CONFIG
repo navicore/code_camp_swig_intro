@@ -1,0 +1,43 @@
+# Directions: (1) Edit each line after "EDIT THIS LINE"
+#             (2) rename this file as "CONFIG"
+
+
+#######################################
+#           perl config
+#######################################
+#you can often find the location of perl CORE with:
+#PERLCORE=$(perl -e 'use Config; print $Config{archlib};')/CORE
+
+#EDIT THIS LINE
+PERLCORE=/usr/lib/perl/5.14/CORE
+#EDIT THIS LINE
+PERLLIBS=-lperl -ldl
+#EDIT THIS LINE
+PERLPGM=/usr/bin/perl
+
+
+#######################################
+#           python config
+#######################################
+
+#you can often find the location of python headers with:
+#PYTHONHEADERS=$(python -c "import distutils.sysconfig; print (distutils.sysconfig.get_python_inc ());")
+
+#EDIT THIS LINE
+PYTHONHEADERS=/usr/include/python2.7
+#EDIT THIS LINE
+PYTHONLIBS=-L/usr/lib -L/usr/local/lib -L/opt/local/lib -ldl -lpython2.7
+
+
+#######################################
+#           ruby config
+#######################################
+#you can often find the location of python headers with:
+#sudo apt-get install ruby1.8-dev
+#RUBYHEADERS=$(ruby -r mkmf -e 'print Config::CONFIG["archdir"]')
+
+#EDIT THIS LINE
+RUBYHEADERS=/usr/lib/ruby/1.8/i686-linux
+#EDIT THIS LINE
+RUBYLIBS=-L/usr/lib -L/usr/local/lib -L/opt/local/lib -ldl -lruby1.8
+
